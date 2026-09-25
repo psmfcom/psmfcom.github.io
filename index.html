@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=iso-8859-1" />
+	<meta name="ROBOTS" content="NOINDEX, NOFOLLOW" />
+	<meta name="author" content="" />
+	<meta name="keywords" content="stocks" />
+	<meta name="owner" content="web" />
+	<meta http-equiv="pragma" content="no-cache" />
+	<meta http-equiv="expires" content="-1" />
+	<title>psmf</title>
+	<link rel="icon" type="image/x-icon" href="/i/favicon.ico" />
+	<style type="text/css">
+		<!--
+		body {
+			color: #000000;
+			/* background-color: #0072C6; */
+			background-color: #000000;
+			margin: 0;
+		}
+
+		#container {
+			margin: auto;
+			/*margin-left: auto;*/
+			/*margin-right: auto;*/
+			display: flex;
+			justify-content: center;
+			align-items: center;
+			vertical-align: middle;
+			height: 100vh;
+			/*text-align: center;*/
+		}
+
+		a img {
+			border: none;
+		}
+		-->
+	</style>
+</head>
+<body>
+	<div id="container">
+		<img name='default' src="i/index.jpg" alt="" onload="onResize()" />
+	</div>
+</body>
+</html>
+<script>
+	window.onresize = onResize;
+	function onResize(e){ var img = document.images.default; var image_scale = window.innerWidth / img.width; if (window.innerHeight < image_scale * img.height) image_scale = window.innerHeight / img.height; img.width = image_scale * img.width; }
+</script>

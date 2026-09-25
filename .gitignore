@@ -1,0 +1,23 @@
+﻿################################################################################
+# This .gitignore file was automatically created by Microsoft(R) Visual Studio.
+################################################################################
+
+.vs
+*.vs
+.vscode
+*.vscode
+*.suo
+*.user
+
+[Bb]in
+[Oo]bj
+
+.DS_Store
+
+*.dSYM
+
+# *.bak
+# *.m4b
+# *.epub
+# *.log
+node_modules
